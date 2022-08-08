@@ -1,0 +1,46 @@
+body {
+    background-image: url("./img/teste-2-layout-editavel\ \(2\).png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.page-logo {
+    width: 115px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+}
+
+nav {
+    margin-left: 63%;
+    word-spacing: 15px;
+}
+
+p.ex1{
+    font-size: 97px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 270px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+p.ex2{
+    margin-top: 0;
+    font-size: 30px;
+    color: white;
+    margin-left: 70px;
+}
+
+p.ex3{
+    width: 77px;
+    color: white;
+    border: solid 10px #003300 ;
+    background-color: #003300;
+    margin-left: 100px;
+}

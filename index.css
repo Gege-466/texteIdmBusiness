@@ -1,12 +1,13 @@
 body {
-    background-image: url("./img/teste-2-layout-editavel\ \(2\).png");
+    background-image: url("./img/pageBackground.png");
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 .page-logo {
-    width: 115px;
-    margin-left: 120px;
+    width: 130px;
+    height: 40px;
+    margin-left: 130px;
     margin-top: 20px;
 }
 
@@ -17,15 +18,22 @@ a {
 }
 
 nav {
-    margin-left: 63%;
-    word-spacing: 15px;
+    margin-left: 345px;
+    word-spacing: 50px;
+    margin-top: 20px;
+}
+
+.quadrado {
+    width: 150px;
+    margin-left: 124px;
+    margin-top: 90px;
 }
 
 p.ex1{
     font-size: 97px;
     color: white;
     margin-left: 100px;
-    margin-top: 270px;
+    margin-top: 50px;
     margin-bottom: 0;
     padding: 0;
 }
@@ -34,7 +42,7 @@ p.ex2{
     margin-top: 0;
     font-size: 30px;
     color: white;
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 p.ex3{
@@ -43,4 +51,31 @@ p.ex3{
     border: solid 10px #003300 ;
     background-color: #003300;
     margin-left: 100px;
+}
+
+div.navegacao {
+    display: flex;
+}
+
+.text{
+    width: 690px;
+}
+
+div.imgIncluso {
+    display: flex;
+    width:1300px;
+}
+
+.circulos {
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 55px;
+}
+
+.icones {
+    width: 70px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
